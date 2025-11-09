@@ -126,7 +126,7 @@ h1{
   .star {
     width: 24px;
     height: 24px;
-    fill: #fbbf24; /* Tailwind yellow-400 */
+    fill: #fbbf24;
   }
   .star.empty {
     fill: #ddd;
