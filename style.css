@@ -12,6 +12,7 @@ body{
 }
 .navbar{
     background-color: #ffffff;
+    padding: 10px;
 }
 .carousal{
     width: 100%;
