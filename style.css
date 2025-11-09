@@ -6,6 +6,10 @@ body{
     font-family: futurak;
     src: url(./assets/fonts/futurak.ttf);
 }
+.futurak{
+    font-family: futurak;
+    font-size:  2.1rem;
+}
 .navbar{
     background-color: #ffffff;
 }
