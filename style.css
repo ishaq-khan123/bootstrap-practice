@@ -1,3 +1,51 @@
+body{
+    background-color: #161515;
+    color: #ffffff;
+}
+@font-face {
+    font-family: futurak;
+    src: url(./assets/fonts/futurak.ttf);
+}
+.navbar{
+    background-color: #ffffff;
+}
 .carousal{
+    width: 100%;
     height: 80vh;
+}
+h1{
+    font-family: futturak;
+    margin-top: 80px;
+}
+.bg-color{
+
+    background-color: #161515;
+    color: #ffffff;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+.bg-color>p{
+    color: #ffffff;
+    font-size: 1.4rem;
+    margin-top: 20px;
+}
+.product-display{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 70px;
+}
+@media (max-width:900px) {
+    .product-display{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+    }
+}
+@media (max-width:580px) {
+    .product-display{
+        display: grid;
+        grid-template-columns: repeat(1 ,1fr);
+    }
 }
