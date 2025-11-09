@@ -6,6 +6,9 @@ body{
     font-family: futurak;
     src: url(./assets/fonts/futurak.ttf);
 }
+.logo-image{
+    width: 5vw;
+}
 .futurak{
     font-family: futurak;
     font-size:  2.1rem;
