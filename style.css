@@ -10,6 +10,11 @@ body{
     font-family: butler;
     src: url(./assets/fonts/butler/Butler_Bold.otf);
 }
+.butler-font{
+  font-family: butler;
+  font-size: 1.8rem;
+  color: #ffffff;
+}
 .logo-image{
     width: 4vw;
     border-radius: 20px;
@@ -74,12 +79,15 @@ h1{
         display: grid;
         grid-template-columns: repeat(1 ,1fr);
     }
+    .logo-image{
+    width: 10vw;
+    border-radius: 10px;
+  }
 }
 .rating-main-container{
     display: grid;
     grid-template-columns: repeat(3 ,1fr);
     margin-top: 100px;
-    margin-left: 25px;
 
 }
  .rating-container {
