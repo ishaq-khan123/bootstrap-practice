@@ -94,6 +94,9 @@ h1{
     border-color: #4f46e5; /* Indigo-600 */
     box-shadow: 0 6px 12px #4f46e533;
   }
+  .text-none{
+    text-decoration: none;
+  }
 
   /* Picture/avatar area */
   .pic-area {
