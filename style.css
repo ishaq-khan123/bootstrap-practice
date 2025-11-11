@@ -199,3 +199,14 @@ h1{
     font-size: 3.2rem;
     font-family: butler;
   }
+  footer>.last-sect{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .footer-list{
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 50px;
+  }
