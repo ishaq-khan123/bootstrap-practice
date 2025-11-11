@@ -26,6 +26,12 @@ body{
     width: 100%;
     height: 80vh;
 }
+.heading{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
 h1{
     font-family: futturak;
     margin-top: 80px;
@@ -63,7 +69,7 @@ h1{
         grid-template-columns: repeat(2 ,1fr);
     }
 }
-@media (max-width:580px) {
+@media (max-width:600px) {
     .product-display{
         display: grid;
         grid-template-columns: repeat(1 ,1fr);
@@ -73,6 +79,8 @@ h1{
     display: grid;
     grid-template-columns: repeat(3 ,1fr);
     margin-top: 100px;
+    margin-left: 25px;
+
 }
  .rating-container {
     display: flex;
@@ -149,9 +157,15 @@ h1{
   }
 
   /* Responsive tweaks */
-  @media (max-width: 480px) {
+  @media (max-width: 580px) {
+    .rating-main-container{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      padding: 20px;
+      row-gap: 50px;
+    }
     .rating-container {
-      max-width: 70%;
+      max-width: 100%;
       font-size: 0.9rem;
       padding: 10px 12px;
     }
@@ -176,11 +190,4 @@ h1{
   .para-1{
     font-size: 3.2rem;
     font-family: butler;
-  }
-  @media (max-width: 585) {
-    .rating-container{
-        
-        grid-template-columns: repeat(1 , 1fr);
-    }
-    
   }
